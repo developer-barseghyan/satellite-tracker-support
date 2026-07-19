@@ -66,4 +66,4 @@ These Terms are governed by the laws of the country of the developer's residence
 
 ## 13. Contact
 
-Questions about these Terms: **prn.barseghyan@gmail.com**
+Questions about these Terms: **developer.barseghyan@gmail.com**
