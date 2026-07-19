@@ -49,4 +49,4 @@ If the App's data practices ever change, we will update this policy and the effe
 
 ## 9. Contact
 
-Questions about privacy: **prn.barseghyan@gmail.com**
+Questions about privacy: **developer.barseghyan@gmail.com**
