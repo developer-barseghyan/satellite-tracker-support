@@ -129,7 +129,7 @@ The **Lifetime** option is a one-time purchase with nothing to renew. If you buy
 
 ### What happens to my grid and datum if Pro ends?
 
-The app shows decimal degrees on WGS84 until you renew. Your choice stays saved and comes back when you do. In the meantime Settings still lists it with a lock.
+The app and Settings show decimal degrees on WGS84 until you renew. Your choice stays saved and comes back when you do, unless you pick a different free format or datum in the meantime.
 
 ### How do I restore my purchase?
 
