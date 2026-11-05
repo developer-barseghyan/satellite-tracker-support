@@ -1,0 +1,5 @@
+title: GPS Test Satellite Tracker
+description: "Support, privacy policy and terms of use for GPS Test Satellite Tracker"
+baseurl: /satellite-tracker-support
+exclude:
+  - README.md
