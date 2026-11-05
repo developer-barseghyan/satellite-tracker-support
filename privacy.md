@@ -16,9 +16,9 @@ Contact: **developer.barseghyan@gmail.com**
 
 ## In short
 
-We do not sell your data, and we do not operate any server that receives data about you. **The App never sends your location anywhere on its own. It leaves your device only when you choose to send or share it, and only to the destination you pick.**
+We do not sell your data, and we do not operate any server that receives data about you. **The App never sends your GPS position anywhere on its own. It leaves your device only when you choose to send or share it, and only to the destination you pick.**
 
-The App does use Google Firebase Analytics to measure anonymous, aggregated feature usage, as described below. Your position is never part of that.
+The App does use Google Firebase Analytics to measure how its features are used, as described below. That data is tied to an identifier for your app installation, not to your name or an account. Your GPS position is never part of it; Google derives only a coarse region from your IP address.
 
 ---
 
@@ -32,7 +32,7 @@ GPS Test Satellite Tracker ("the App") is developed by Tigran Barseghyan ("we", 
 - display your position, altitude, speed and GPS accuracy on the GPS screen, and
 - measure the spread of position fixes during a GPS accuracy test.
 
-Your location is processed **on your device**. The App does not save it to disk, and neither we nor any analytics provider ever receive it. Fixes collected during an accuracy test, and any reference coordinate you enter for one, are held in memory and are not saved. The only way your location leaves your device is if you send or share it yourself; see section 6. If you deny location access, the App shows a screen explaining that it cannot function without it, and no location data is handled.
+Your GPS position is processed **on your device**. The App does not save it to disk, and neither we nor any analytics provider ever receive it. Fixes collected during an accuracy test, and any reference coordinate you enter for one, are held in memory and are not saved. The only way your GPS position leaves your device is if you send or share it yourself; see section 6. If you deny location access, the App shows a screen explaining that it cannot function without it, and no location data is handled.
 
 ## 2. Network requests (satellite catalog)
 
@@ -48,13 +48,13 @@ The App stores only non-personal preferences locally on your device: display uni
 
 ## 5. Usage analytics
 
-The App uses **Google Firebase Analytics** to understand how its features are used, so we know what to improve. This is anonymous, aggregated product measurement, not advertising and not profiling.
+The App uses **Google Firebase Analytics** to understand how its features are used, so we know what to improve. This is product measurement, not advertising and not profiling. We view it as aggregated reports. Google receives it tied to an app-instance identifier, not to your name, email, or an account.
 
 **What is measured:** which screens are opened; which controls are used (radar radius, zoom, filters, sorting, sharing and sending, including the report type, coordinate format and datum, but never the content); the type of a satellite you tap and its rounded distance from you; whether a subscription screen was shown and what happened next, including the plan, price and currency of a purchase; how long the satellite catalog took to load; whether a GPS fix was obtained and how accurate it was; the length, sample count and size of error (CEP95) of an accuracy test; and your in-App preferences (units, heading mode, coordinate format, datum, radar radius, enabled satellite groups, subscription status).
 
 **What is never sent:** your latitude, longitude, altitude, or any other position data; any accuracy test coordinate; the content of anything you send or share; the coordinates of any satellite you viewed; the text you type into the search field (only how many characters it contained); your name, email, Apple ID, or payment details; your device's advertising identifier (IDFA). The App does not use the advertising-identifier component of Firebase, and does not track you across other apps or websites.
 
-**Identifiers:** Firebase assigns the App an app-instance identifier and can read the vendor identifier (IDFV), both of which are reset when you delete the App. Google receives your IP address as part of standard networking and derives a coarse, country/region-level location estimate from it on its servers; we never see a more precise location than that.
+**Identifiers:** Firebase assigns the App an app-instance identifier and can read the vendor identifier (IDFV), both of which are reset when you delete the App. Google receives your IP address as part of standard networking and derives a coarse, country/region-level location estimate from it on its servers. That estimate is collected for analytics, and we never see a more precise location than that.
 
 Google's processing of this data is governed by [Google's Privacy Policy](https://policies.google.com/privacy) and the [Firebase data-handling terms](https://firebase.google.com/support/privacy).
 
@@ -72,12 +72,12 @@ Once sent, that content is handled by the app or service you chose and by the pe
 - No user accounts or registration.
 - No advertising SDKs, no advertising identifier, no cross-app or cross-site tracking.
 - No selling or renting of any data.
-- No collection of your location, coordinates, or searches by us or by any analytics provider.
+- No collection of your GPS position, coordinates, or searches by us or by any analytics provider. The coarse region estimate described in section 5 comes from your IP address.
 - No knowing collection of personal data from children. The App is not directed at children under 13.
 
 ## 8. Your rights
 
-We hold no personal data that identifies you, so there is no account to access, correct, or export. Local data is removed by deleting the App. Location permission can be revoked in iOS Settings → Privacy & Security → Location Services. Subscriptions are managed in Settings → your name → Subscriptions.
+The App has no accounts, and we do not hold your name, email, or contact details, so there is no account to access, correct, or export. Local data is removed by deleting the App, which also resets the analytics identifiers described in section 5. Location permission can be revoked in iOS Settings → Privacy & Security → Location Services. Subscriptions are managed in Settings → your name → Subscriptions.
 
 ## 9. Changes to this policy
 

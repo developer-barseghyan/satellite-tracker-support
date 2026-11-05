@@ -8,7 +8,7 @@ permalink: /
 
 **GPS Test Satellite Tracker** shows Starlink, the ISS and other orbital objects on a live radar, and checks your device's GPS fix: position, accuracy, and the navigation satellites overhead.
 
-Your location is processed on your device. It leaves the device only when you choose to send or share it.
+Your GPS position is processed on your device. It leaves the device only when you choose to send or share it.
 
 ---
 
